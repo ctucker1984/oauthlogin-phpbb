@@ -49,6 +49,7 @@ class remove_oauth_data extends container_aware_migration
                 'auth.provider.oauth.service.github',
                 'auth.provider.oauth.service.microsoft',
                 'auth.provider.oauth.service.reddit',
+                'auth.provider.oauth.service.neoncrm',
                 'auth.provider.oauth.service.wordpress',
             ],
 
@@ -57,6 +58,7 @@ class remove_oauth_data extends container_aware_migration
                 'github',
                 'microsoft',
                 'reddit',
+                'neoncrm',
                 'wordpress',
             ],
         ];
