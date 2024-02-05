@@ -11,7 +11,7 @@
 namespace dsr\oauthlogin\auth\provider\oauth\service;
 
 use OAuth\Common\Http\Exception\TokenResponseException;
-use OAuth\OAuth2\Service\NeonCrmExtend as GitHubService;
+use OAuth\OAuth2\Service\NeonCrmExtend as NeonCrmService;
 use phpbb\auth\provider\oauth\service\base;
 use phpbb\auth\provider\oauth\service\exception;
 use phpbb\config\config;
@@ -58,7 +58,7 @@ class neoncrm extends base
 
     /**
      * {@inheritdoc}
-     */
+     */ 
     public function perform_auth_login()
     {
         if (!($this->service_provider instanceof NeonCrmService)) {
